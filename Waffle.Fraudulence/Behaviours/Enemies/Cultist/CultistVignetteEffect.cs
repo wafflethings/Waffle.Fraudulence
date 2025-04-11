@@ -8,7 +8,7 @@ namespace Waffle.Fraudulence.Behaviours.Enemies.Cultist;
 public class CultistVignetteEffect : MonoSingleton<CultistVignetteEffect>
 {
     public float StartOpacity = 0.5f;
-    public float FadeSpeed;
+    public float FadeSpeed = 0.5f;
     public AudioSource SoundEffect;
 
     private Image _image;
